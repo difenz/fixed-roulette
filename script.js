@@ -110,7 +110,7 @@ function start() {
     document.getElementById("start-button").style.cursor = "pointer";
     document.getElementById("start-button").disabled = false;
     confetti.clear();
-  }, 30 * 1000);
+  }, 20 * 1000);
 
   setTimeout(() => {
     // document.getElementById("confetti").style.zIndex = "100000";
