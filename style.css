@@ -78,9 +78,9 @@ body {
 .app .scope .list__item.active {
   opacity: 1;
   border-radius: 5px;
-  border: 3px solid #969e77;
-  border-color: #969e77;
-  box-shadow: 0 0 20px #969e77;
+  border: 3px solid #f9c702;
+  border-color: #f9c702;
+  box-shadow: 0 0 20px #f9c702;
 }
 .app .scope .list__item.active img {
   transform: scale(1.05);
