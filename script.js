@@ -1,4 +1,4 @@
-const cells = 31;
+const cells = 100;
 
 // From 0.001 to 100
 const items = [
