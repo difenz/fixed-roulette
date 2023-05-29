@@ -6,11 +6,11 @@ const items = [
   {name: 'cigone', img: 'IMG/case/instabar.png', chance: 2},
   {name: 'xylinet', img: 'IMG/case/caliber.png', chance: 3},
   {name: 'Pika', img: 'IMG/case/MA.png', chance: 4},
-  {name: '1500ballov', img: 'IMG/case/bohkazip.png', chance: 6},
-  {name: '1500ballov', img: 'IMG/case/boshkijar.png', chance: 7},
-  {name: 'achonet', img: 'IMG/case/achonet.png', chance: 8},
+  {name: '1500ballov', img: 'IMG/case/bohkazip.png', chance: 5},
+  {name: '1500ballov', img: 'IMG/case/boshkijar.png', chance: 8},
+  {name: 'achonet', img: 'IMG/case/achonet.png', chance: 10},
   {name: '100ballov', img: 'IMG/case/55percent.png', chance: 25},
-  {name: '50ballov', img: 'IMG/case/prize.png', chance: 20}
+  {name: '50ballov', img: 'IMG/case/prize.png', chance: 28}
 ];
 
 // const items = [
