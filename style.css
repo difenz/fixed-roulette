@@ -91,6 +91,7 @@ body {
   -o-object-fit: contain;
   object-fit: contain;
   transition: 0.3s ease;
+  
 }
 .app .start {
   position: absolute;

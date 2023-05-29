@@ -9,8 +9,8 @@ const items = [
   {name: '1500ballov', img: 'IMG/case/bohkazip.png', chance: 6},
   {name: '1500ballov', img: 'IMG/case/boshkijar.png', chance: 7},
   {name: 'achonet', img: 'IMG/case/achonet.png', chance: 8},
-  {name: '100ballov', img: 'IMG/case/55percent.png', chance: 20},
-  {name: '50ballov', img: 'IMG/case/prize.png', chance: 25}
+  {name: '100ballov', img: 'IMG/case/55percent.png', chance: 25},
+  {name: '50ballov', img: 'IMG/case/prize.png', chance: 20}
 ];
 
 // const items = [
