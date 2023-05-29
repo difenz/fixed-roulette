@@ -2,7 +2,7 @@ const cells = 31;
 
 // From 0.001 to 100
 const items = [
-  {name: 'Vkinka', img: 'IMG/case/prosto.png', chance: 1},
+  {name: 'Vkinka', img: 'IMG/case/Prosto.png', chance: 1},
   {name: 'cigone', img: 'IMG/case/instabar.png', chance: 2},
   {name: 'xylinet', img: 'IMG/case/caliber.png', chance: 3},
   {name: 'Pika', img: 'IMG/case/MA.png', chance: 4},
