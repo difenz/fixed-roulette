@@ -1,4 +1,4 @@
-@font-face { font-family: Fifaks 1.0 dev1; src: url('Fifaks10Dev1.ttf'); } 
+@font-face { font-family: Fifaks 1.0 dev1; src: url('./Fifaks10Dev1.ttf'); } 
 
 
 * {
