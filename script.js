@@ -8,9 +8,9 @@ const items = [
   {name: 'Pika', img: 'IMG/case/MA.png', chance: 4},
   {name: '1500ballov', img: 'IMG/case/bohkazip.png', chance: 5},
   {name: '1500ballov', img: 'IMG/case/boshkijar.png', chance: 6},
-  {name: 'achonet', img: 'IMG/case/plus1.png', chance: 10},
-  {name: '100ballov', img: 'IMG/case/55percent.png', chance: 25},
-  {name: '50ballov', img: 'IMG/case/prize.png', chance: 28}
+  {name: 'achonet', img: 'IMG/case/1try.svg', chance: 10},
+  {name: '100ballov', img: 'IMG/case/5percent.svg', chance: 25},
+  {name: '50ballov', img: 'IMG/case/dontcry.svg', chance: 28}
 ];
 
 // const items = [
@@ -107,7 +107,7 @@ function start() {
   var confetti = new ConfettiGenerator(confettiSettings);
 
   setTimeout(() => {
-    document.getElementById("start-button").style.background = "#13161a";
+    document.getElementById("start-button").style.background = "#7867B1";
     document.getElementById("start-button").style.cursor = "pointer";
     document.getElementById("start-button").disabled = false;
     confetti.clear();

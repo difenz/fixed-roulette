@@ -78,9 +78,9 @@ body {
 .app .scope .list__item.active {
   opacity: 1;
   border-radius: 5px;
-  border: 3px solid #f9c702;
-  border-color: #f9c702;
-  box-shadow: 0 0 20px #f9c702;
+  border: 3px solid #7867B1;
+  border-color: #7867B1;
+  box-shadow: 0 0 20px #7867B1;
 }
 .app .scope .list__item.active img {
   transform: scale(1.05);
@@ -98,14 +98,15 @@ body {
   top: 120%;
   left: 50%;
   transform: translate3d(-50%, 20px, 0);
-  padding: 20px 45px;
+  padding: 35px 45px 20px 45px;
+  font-family: 'Fifaks 1.0 dev1';
   border: none;
-  border-radius: 5px;
   outline: none;
-  background: #13161a;
+  background: #7867B1;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
+  z-index: 5;
   transition: opacity 0.2s ease;
   cursor: pointer;
 }
@@ -148,7 +149,7 @@ body {
   -moz-filter: blur(5vw);
   -ms-filter: blur(5vw);
   filter: blur(10vw);
-  background: linear-gradient(270deg, #0fffc1, #7e0fff);
+  background: linear-gradient(270deg, #6e46ef, #7867B1);
   background-size: 200% 200%;
   animation: animateGlow 10s ease infinite;
 }
@@ -169,4 +170,11 @@ body {
   top: 0;
   left: 0;
   z-index: -100000;
+}
+
+
+.pixel {
+  position: absolute;
+  top: -80%;
+  z-index: -2;
 }
