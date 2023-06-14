@@ -1,4 +1,4 @@
-@font-face { font-family: Fifaks 1.0 dev1; src: url('./Fifaks10Dev1.ttf'); } 
+@font-face { font-family: Fifaks; src: url('./Fifaks10Dev1.ttf'); } 
 
 
 * {
@@ -104,7 +104,7 @@ body {
   left: 50%;
   transform: translate3d(-50%, 20px, 0);
   padding: 35px 45px 20px 45px;
-  font-family: 'Fifaks 1.0 dev1';
+  font-family: 'Fifaks';
   border: none;
   outline: none;
   background: #7867B1;
