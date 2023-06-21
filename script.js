@@ -4,10 +4,10 @@ const cells = 31;
 
 // From 0.001 to 100
 const items = [
-  {name: 'Vkinka', img: 'IMG/case/Prosto.png', chance: 1},
-  // {name: 'cigone', img: 'IMG/case/instabar.png', chance: 2},
-  {name: 'xylinet', img: 'IMG/case/caliber.png', chance: 3},
-  {name: 'Pika', img: 'IMG/case/MA.png', chance: 4},
+  {name: 'Vkinka', img: 'IMG/case/ecig.svg', chance: 1},
+  {name: 'cigone', img: 'IMG/case/caliber.png', chance: 2},
+  {name: 'xylinet', img: 'IMG/case/tshirt.svg', chance: 3},
+  {name: 'Pika', img: 'IMG/case/pod.svg', chance: 4},
   {name: '1500ballov', img: 'IMG/case/bohkazip.png', chance: 5},
   {name: '1500ballov', img: 'IMG/case/boshkijar.png', chance: 6},
   {name: 'achonet', img: 'IMG/case/1try.svg', chance: 10},
@@ -26,6 +26,7 @@ const items = [
 //     {name: '1500ballov', img: 'IMG/case/1500ballov.png', chance: 1},
 //     {name: '50ballov', img: 'IMG/case/50ballov.png', chance: 25},
 //     {name: 'achonet', img: 'IMG/case/achonet.png', chance: 11}
+
 
 function getItem() {
   let item;
